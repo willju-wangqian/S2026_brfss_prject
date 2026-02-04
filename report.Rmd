@@ -1,0 +1,82 @@
+---
+title: "Project Report"
+author: "Will Ju"
+date: "`r Sys.Date()`"
+output:
+  word_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# BRFSS Data Science Project Report
+
+## Introduction
+
+This is a toy project report for the BRFSS data <https://ds202-at-isu.github.io/materials/01_collaborative-environment/data/brfss_iowa.csv>
+
+Our goal is to investigate the relationship between **height** and **weight**
+
+## Data
+
+Here we import the data from a csv file
+
+```{r}
+data <- read.csv("data/brfss_iowa.csv")
+```
+
+Then we check the number of variables and observations
+
+```{r}
+dim(data)
+
+head(data)
+```
+
+Then we check the variable `HEIGHT3` and `WEIGHT2`
+
+```{r}
+
+```
+
+## Correlation
+
+We want to investigate the xxx by gender
+
+```{r}
+male_data <- data
+female_data <- data
+```
+
+Then we found that the
+
+## Conclusion
+
+For this project, we ...
+
+-   point 1
+
+-   point 2
+
+-   **bold font**
+
+-   *italic*
+
+1.  list item 1
+2.  list item 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
